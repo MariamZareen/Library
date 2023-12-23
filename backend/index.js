@@ -12,7 +12,7 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type'],
 }));
-app.use('/',booksRoute);
+app.use('/books',booksRoute);
 app.use(express.json())
   
 
